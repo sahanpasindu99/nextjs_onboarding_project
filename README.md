@@ -15,14 +15,12 @@ Tailwind CSS: Utility-first CSS for clean styling.
 Clone the repo and install dependencies:
 
 bash
-Copy code
+
 git clone https://github.com/your-username/onboarding-project.git  
 cd onboarding-project  
 npm install  
 2. Environment Variables
 Add a .env file with:
-
-# env
 
 DATABASE_URL=your_neon_db_connection_string  
 NEXTAUTH_SECRET=your_nextauth_secret  
@@ -32,7 +30,6 @@ GITHUB_CLIENT_SECRET=your_github_client_secret
 3. Set Up Prisma
 Initialize database schema:
 
-# bash
 npx prisma init  
 npx prisma generate
 npx prisma db push //to upload the schema to db  
